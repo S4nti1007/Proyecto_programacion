@@ -7,4 +7,8 @@ add_executable(untitled1 main.cpp
         Entidad.cpp
         Entidad.h
         Objeto.cpp
-        Objeto.h)
+        Objeto.h
+        Arma.cpp
+        Arma.h
+        Pocion.cpp
+        Pocion.h)
