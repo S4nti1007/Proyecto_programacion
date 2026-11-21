@@ -13,4 +13,10 @@ add_executable(untitled1 main.cpp
         Pocion.cpp
         Pocion.h
         Jugador.cpp
-        Jugador.h)
+        Jugador.h
+        Enemigo.cpp
+        Enemigo.h
+        Jefe.cpp
+        Jefe.h
+        Habitacion.cpp
+        Habitacion.h)
