@@ -9,13 +9,14 @@
 
 class Arma : public Objeto {
 private:
-    int bonoAtaque;
+    int bonificacionAtaque;
 
 public:
     Arma(const std::string& nombre, float peso, int bonoAtaque);
+    ~Arma() override;
 
     void usar(Jugador* jugador) override;
-    int getBonoAtaque() const;
+    int getBonificacionAtaque() const;
 };
 
 #endif

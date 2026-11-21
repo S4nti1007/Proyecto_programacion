@@ -11,4 +11,6 @@ add_executable(untitled1 main.cpp
         Arma.cpp
         Arma.h
         Pocion.cpp
-        Pocion.h)
+        Pocion.h
+        Jugador.cpp
+        Jugador.h)

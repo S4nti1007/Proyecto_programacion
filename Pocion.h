@@ -13,6 +13,7 @@ private:
 
 public:
     Pocion(const std::string& nombre, float peso, int curacion);
+    ~Pocion() override;
 
     void usar(Jugador* jugador) override;
     int getCuracion() const;

@@ -3,6 +3,7 @@
 //
 
 #include "Pocion.h"
+#include "Jugador.h"
 #include <iostream>
 
 Pocion::Pocion(const std::string& nombre, float peso, int curacion)
@@ -14,10 +15,12 @@ Pocion::Pocion(const std::string& nombre, float peso, int curacion)
     }
 }
 
+Pocion::~Pocion() {}
+
 void Pocion::usar(Jugador* jugador) {
     if (jugador != nullptr) {
-        std::cout << "Se bebe la pocion " << this->nombre
-                  << " (+" << this->curacion << " de vida)." << std::endl;
+        jugador->curar(this->curacion);
+        std::cout << "Se bebe la pocion " << this->nombre<< " (+" << this->curacion << " de vida)." << std::endl;
     }
 }
 
