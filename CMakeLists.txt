@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 4.3)
-project(untitled1)
+project(Ascenso_al_oLimpo)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled1 main.cpp
+add_executable(Ascenso_al_olimpo main.cpp
         Entidad.cpp
         Entidad.h
         Objeto.cpp
