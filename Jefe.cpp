@@ -11,7 +11,6 @@ Jefe::Jefe(const std::string& nombre, int vida, int ataqueBase, int agresividad,
 }
 
 Jefe::~Jefe() {
-    // Agregacion: el Jefe no destruye el Arma (no se hace delete)
     this->armaDivina = nullptr;
 }
 

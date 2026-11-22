@@ -28,7 +28,7 @@ void Jugador::atacar(Entidad* objetivo) {
         if (!objetivo->estaVivo()) {
             this->enemigosDerrotados++;
             this->experiencia += 50;
-            std::cout << objetivo->getNombre() << " ha sido derrotado! Ganas 50 de experiencia." << std::endl;
+            std::cout << objetivo->getNombre() << " Ha sido derrotado! Ganas 50 de experiencia." << std::endl;
             if (this->experiencia % 100 == 0) {
                 this->subirNivel();
             }

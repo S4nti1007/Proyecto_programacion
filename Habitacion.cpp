@@ -11,7 +11,6 @@ Habitacion::Habitacion(const std::string& nombre, const std::string& descripcion
 }
 
 Habitacion::~Habitacion() {
-    // Agregacion: la Habitacion no destruye los enemigos ni las otras habitaciones (no se hace delete)
     this->enemigos.clear();
     this->salidas.clear();
 }
